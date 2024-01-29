@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .container {
-  background-image: url("./images/bg-cafe.jpg");
+  background-image: url("/images/bg-cafe.jpg");
   background-repeat: no-repeat;
   background-color: #111315;
   background-size: 100% 15rem;
