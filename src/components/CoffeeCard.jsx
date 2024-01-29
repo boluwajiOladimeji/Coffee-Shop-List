@@ -1,5 +1,5 @@
-import fullStarImg from "../images/Star_fill.svg";
-import starImg from "../images/star.svg";
+// import fullStarImg from "../images/Star_fill.svg";
+// import starImg from "../images/star.svg";
 
 function CoffeeCard({ cf }) {
   return (
@@ -19,12 +19,12 @@ function CoffeeCard({ cf }) {
       <div className="flex items-center justify-between text-sm">
         {!cf.rating ? (
           <div className="flex items-center text-[#FEF7EE]">
-            <img src={starImg} alt="empty star" />{" "}
+            <img src="/images/Star.svg" alt="empty star" />{" "}
             <span className="ml-1">No ratings</span>{" "}
           </div>
         ) : (
           <div className="flex items-center text-[#FEF7EE]">
-            <img src={fullStarImg} alt="full star" />{" "}
+            <img src="/images/Star_fill.svg" alt="full star" />{" "}
             <span className="ml-2">{cf.rating}</span>
             <span className="ml-1 font-bold text-[#6F757C]">
               ({cf.votes} votes)
