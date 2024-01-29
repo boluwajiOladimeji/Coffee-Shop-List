@@ -57,7 +57,7 @@ function CoffeeList() {
   return (
     <div>
       <CoffeeBtnContainer category={category} handleCategory={handleCategory} />
-      <div className="mx-auto mt-8 w-full max-w-5xl space-y-8 md:grid md:grid-cols-2 md:gap-8 md:space-y-0 lg:grid-cols-3">
+      <div className="mx-auto mt-8 w-full max-w-5xl space-y-9 md:grid md:grid-cols-2 md:gap-8 md:space-y-0 lg:grid-cols-3">
         {displayedCoffee.map((cf) => {
           return <CoffeeCard key={cf.id} cf={cf} />;
         })}
