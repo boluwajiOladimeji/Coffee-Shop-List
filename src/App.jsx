@@ -3,7 +3,7 @@ import HeaderText from "./components/HeaderText";
 
 function App() {
   return (
-    <div className="center min-h-screen w-full py-24 ">
+    <div className="center py-30 min-h-screen w-full py-32 ">
       <div className="mx-auto w-11/12 max-w-7xl rounded-md bg-[#1B1D1F] px-8 pb-12 pt-8">
         <HeaderText />
         <CoffeeList />
